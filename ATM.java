@@ -26,11 +26,13 @@ public class ATM {
        int temp = scanner.nextInt();
        if(money < temp) // kalo kd cukup duit error
        {
-           System.out.println("you dont have enough money");;
+           System.out.println("you dont have enough money");
            return money;
        
        }
+ else{
        return money-+ temp;
+}
    }
     public int Withdraw(String name)
     {
